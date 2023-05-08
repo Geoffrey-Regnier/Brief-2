@@ -1,0 +1,198 @@
+*:not(head) {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+
+}
+
+image {
+    max-width: 100%;
+}
+html {
+    display: flex
+}
+
+#container {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+}
+
+header {
+    width: 1313px;
+    height: 342px;
+    margin-bottom: 1px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    padding-top: 13px;
+    margin-bottom: 20px;
+}
+
+#dateetsite {
+    padding-top: 13px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    width: 1313px;
+    font-size: 20px;
+}
+
+main {
+    height: 768px;
+    width: 1312px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+footer {
+    height: 270px;
+}
+
+#logo20min {
+    width: 279px;
+    height: 342px;
+    background-image: url(image/logo20min.webp)
+}
+
+#clairevallee {
+    width: 424px;
+    height: 300px;
+    background-image: url(image/clairevallee.webp);
+    background-repeat: no-repeat;
+    margin-left: 54px;
+    margin-right: 31px;
+    margin-top: 41px;
+}
+
+#article20min {
+    width: 524px;
+    height: 342px;
+}
+
+#logorecycl {
+    background-image: url(image/logorecycl.webp);
+    width: 52px;
+    height: 140px;
+}
+
+#planete {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#listearticle {
+    height: 767px;
+    width: 280px;
+    padding-left: 13px;
+    padding-right: 22px;
+    padding-bottom: 13px;
+    border-bottom: 1px black solid;
+}
+
+#romainduris {
+    background-image: url(image/klapisch.webp);
+    width: 945px;
+    height: 768px;
+    padding-bottom: 12px;
+    border-bottom: 1px black solid;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#avertissement {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    writing-mode: vertical-rl;
+    rotate: 180deg;
+    font-size: 13px;
+}
+
+#pub {
+    width: 1217px;
+}
+
+#cheffevegane {
+    font-size: 40px;
+}
+
+#articleheader {
+    background: #2B458F;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.border {
+    border: solid 1px black;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.article {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+}
+
+.marginarticle {
+    padding-top: 32px;
+}
+
+.font40px {
+    font-size: 40px;
+    color: #2B458F;
+    font-weight: bold;
+}
+
+.font30px {
+    font-size: 30px;
+    margin-left: 15px;
+    color: white;
+}
+
+.font100px {
+    font-size: 100px;
+    margin-left: 15px;
+    font-size: 100px;
+    margin-left: 15px;
+    color: white;
+    background: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.font20px {
+    font-size: 20px;
+}
+
+.titrearticle2 {
+    text-transform: uppercase;
+    color: #2B458F;
+    font-size: 20px;
+    font-weight: bold;
+
+}
